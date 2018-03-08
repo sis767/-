@@ -1,0 +1,279 @@
+@import -webkit-user-select: a;
+-moz-user-select: a;
+-ms-user-select: a;
+-o-user-select: a;
+user-select: a;rl(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+* {
+	font-family: 'Noto Sans TC'!important;
+}
+.col-xs-6,  .col-sm-1,  .col-md-1,  .col-lg-1,  
+.col-xs-2,  .col-sm-2,  .col-md-2,  .col-lg-2,  
+.col-xs-3,  .col-sm-3,  .col-md-3,  .col-lg-3,  
+.col-xs-4,  .col-sm-4,  .col-md-4,  .col-lg-4,  
+.col-xs-5,  .col-sm-5,  .col-md-5,  .col-lg-5,  
+.col-xs-6,  .col-sm-6,  .col-md-6,  .col-lg-6,  
+.col-xs-7,  .col-sm-7,  .col-md-7,  .col-lg-7,  
+.col-xs-8,  .col-sm-8,  .col-md-8,  .col-lg-8,  
+.col-xs-9,  .col-sm-9,  .col-md-9,  .col-lg-9,  
+.col-xs-10,  .col-sm-10,  .col-md-10,  .col-lg-10,  
+.col-xs-11,  .col-sm-11,  .col-md-11,  .col-lg-11,  
+.col-xs-12,  .col-sm-12,  .col-md-12,  .col-lg-12 
+{
+	margin:  0;
+	padding: 0;
+}
+#hith{
+	margin:  0;
+	padding: 0;
+}
+
+#hith img{
+	width: 100%;
+	height: 250px;
+}
+
+/* nav */
+.navv{
+	padding: 0;
+	margin: 0;
+}
+#navv1{
+	background-color: #333;
+	color: #fefefe;
+}
+#navv1{
+	background-color: #272727;
+}
+#navv1 a{
+	color: #fefefe;
+}
+#navv2{
+	background-color: #272727;
+	color: #fefefe;
+}
+#navv2 a:hover{
+	background-color: #fefefe;
+	color: #333;
+}
+
+
+.rs{
+	position: relative;
+	top: 55px;
+}
+.rs2{
+	position: relative;
+	top: 50px;
+}
+.rs3{
+	position: relative;
+	top: 40px;
+}
+.navs{
+	background-color: #fefefe;
+}
+
+/* 標題 */
+
+.font1{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+/* 首頁標題 */
+.fonts1{
+	color:#444 ;
+	font-weight: bold;
+}
+.fonts2{
+	font-size: .8em;
+
+}
+.fontrs{
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+
+.font2{
+	text-align: center;	
+	background-color: #007bff;
+	color: #d6d4d4;
+}
+.font2-1{
+	font-size: 4em;
+	line-height: 1.8em;
+	font-weight: bold;
+}
+.font3{
+	background-color: #d6d4d4;
+}
+.hr1{
+	background-color: #d6d4d4;
+}
+#but1{
+	text-align: right;
+}
+/* 幻燈片 */
+#mov1{
+	background-color: #000;
+	height:330px; 
+}
+#mov1 img{
+	
+	height:330px; 
+}
+
+.three{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 55px 80px 55px 0;
+	border-color: transparent #444 transparent transparent;
+	z-index: 90;
+	position: relative;
+	top: 2%;
+	left: -20%;
+	display: block;
+	float: left;
+}
+.three2{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 30px 0 30px 30px;
+	border-color: transparent transparent transparent #d6d4;
+	z-index: 990;
+	position: relative;
+	top: -52%;
+	right: -50px;
+	display: block;
+	float: right;
+}
+
+.talk{
+	background-color: #444;
+	color: #d6d4d4;
+	border-radius:0;
+}
+.talk2{
+	background-color: #999;
+	color: #fefefe;
+	border-radius:0;
+}
+
+.talk3{
+	
+	color:#272727;
+	
+}
+.talk3 h4{
+	color: #ae0000;
+}
+.talk2 span{
+	display: block;
+	float: left;
+	padding: 2%;
+	margin: .5%;
+}
+.talk2 .card-title{
+	font-weight: bold;
+}
+#head2 img,#head2 .jumbotron,#head2{
+	width: 100%;
+	height: 230px;
+}
+#head1 img,#head1 .jumbotron{
+	width: 100%;
+	height: 460px;
+	
+}
+#head1 h1,#head1 h2{
+	text-align: center;
+	padding: 1%;
+	font-weight: bold;
+}
+
+#foot1 .card{
+	width: 100%;
+	height: 205px;
+}
+
+
+
+
+
+@media screen and (max-width:1024px){
+	#head1 img,#head1 .jumbotron,#head2 img,#head2 .jumbotron,#menua img,#mov1,#mov1 img,#head2{
+		height: auto;
+	}
+	.font2-1{
+		font-size: 2em;
+	}
+}
+
+/* menu 卡片架構 */
+#menua img{
+	height: 280px;
+}
+/* menu 超連結 */
+.box,.box2,.box3,.box4,.box5,.box6,.box7,.box8,.box9,.box10{
+	width:auto;
+	height:auto;
+	position:relative;
+	cursor:pointer;
+}
+.box:after,.box2:after,.box3:after,.box4:after,.box5:after,.box6:after,.box7:after,.box8:after,.box9:after,.box10:after{
+	font-size:3em;
+	color:transparent;
+	text-align:center;
+	line-height:5.5em;
+	font-weight:bold;
+	width: 100%;
+	height: 100%;
+	background:rgba(0,0,0,0);
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:999;
+	transition:all 1.5s;
+}
+
+.box:hover:after,.box2:hover:after,.box3:hover:after,.box4:hover:after,.box5:hover:after,.box6:hover:after,.box7:hover:after,
+.box8:hover:after,.box9:hover:after,.box10:hover:after{
+	background:rgba(0,0,0,0.4);
+	color:#fff;
+}
+.box:after{
+	content:'動作';
+}
+.box2:after{
+	content:'科幻';
+}
+.box3:after{
+	content:'劇情';
+}
+.box4:after{
+	content:'戰爭';
+}
+.box5:after{
+	content:'愛情';
+}
+.box6:after{
+	content:'喜劇';
+}
+.box7:after{
+	content:'恐怖';
+}
+.box8:after{
+	content:'災難';
+}
+.box9:after{
+	content:'未分類';
+}
+.box10:after{
+	content:'按此進入';
+}
+
+/* 測試功能區 */
+
+
